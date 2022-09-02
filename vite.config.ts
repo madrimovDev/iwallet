@@ -19,7 +19,9 @@ export default defineConfig({
 			'@store': pathResolver('store'),
 			'@utilities': pathResolver('utilities'),
 			'@layouts': pathResolver('layouts'),
-			'@data': pathResolver('data')
+			'@data': pathResolver('data'),
+			'@router': pathResolver('router'),
+			'@axios': pathResolver('axios')
 		}
 	}
 })
