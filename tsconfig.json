@@ -29,7 +29,9 @@
 			"@layouts": ["./layouts"],
 			"@data": ["./data"],
 			"@router": ["./router"],
-			"@axios": ["./axios"]
+			"@axios": ["./axios"],
+			"@models": ["./models"],
+			"@services": ["./services"]
 		}
 	},
 	"include": ["src"],

@@ -21,7 +21,9 @@ export default defineConfig({
 			'@layouts': pathResolver('layouts'),
 			'@data': pathResolver('data'),
 			'@router': pathResolver('router'),
-			'@axios': pathResolver('axios')
+			'@axios': pathResolver('axios'),
+			'@models': pathResolver('models'),
+			'@services': pathResolver('services')
 		}
 	}
 })
